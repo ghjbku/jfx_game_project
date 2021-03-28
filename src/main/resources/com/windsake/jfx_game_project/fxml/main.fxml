@@ -10,7 +10,7 @@
             <Image url="@../pictures/mage.jpg" />
          </image>
       </ImageView>
-      <ImageView fx:id="StartButton" fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" onMouseEntered="#hover_any_button" onMouseExited="#exit_any_button" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="StartButton" fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" onMouseClicked="#on_start_button_click" onMouseEntered="#hover_any_button" onMouseExited="#exit_any_button" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../pictures/startButton.png" />
          </image></ImageView>
@@ -18,5 +18,10 @@
          <image>
             <Image url="@../pictures/exitButton.png" />
          </image></ImageView>
+      <ImageView fx:id="OptionsButton" fitHeight="50.0" fitWidth="200.0" layoutX="71.0" layoutY="113.0" onMouseClicked="#on_options_button_click" onMouseEntered="#hover_any_button" onMouseExited="#exit_any_button" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/optionsButton.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
